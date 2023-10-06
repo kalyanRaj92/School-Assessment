@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.header-contact {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 100px;
+    align-items: center;
+    background: #fff;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.contact-no,
+.email-details {
+    margin: 0 7px;
+    font-size: 14px;
+    font-weight: 500;
+    color: blue;
+    cursor: pointer;
+}
+
+.email {
+    color: black;
+}
+
+.icon {
+    background: #ff5202;
+    padding: 5px;
+    font-size: 12px;
+    margin-right: 3px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-links,
+.user-btn {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    display: flex;
+}
+
+.social-container {
+    margin: 0 7px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.whatsapp {
+    background: #1bd741;
+}
+
+.icon2 {
+    margin-right: 3px;
+    color: #fff;
+    line-height: 1;
+}
+
+.contact-links span {
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.mobile-app {
+    background: #a4c639;
+}
+
+.user-login {
+    background: #0d1028;
+}
+
+.user-registration {
+    background: #0d1028;
+}
+
+/*---------------------- header navbar info -------------------------*/
+
+.header-navbar {
+    background: #ff5202;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 100px;
+}
+
+.header-logo {
+    background-image: url("https://schoolaura.com/Content/new_assets/images/header/logo-cloud.png");
+    background-size: cover;
+    /*  height: 130px; */
+    width: 280px;
+}
+
+.header-logo img {
+    width: 130px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.navbar-link {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 16px;
+}
+
+.navbar-link ul li {
+    display: inline-block;
+    margin: 0 3px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 2px 7px;
+    cursor: pointer;
+}
+
+.navbar-link ul .school-management {
+    background: #0d1028;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.navbar-link ul .school-management .fas {
+    margin-right: 5px;
+}
+
+/* -------------------------main content-------------- */
+
+.hero-banner {
+    width: 100%;
+    background: #ff5202;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    width: 70%;
+}
+
+.hero-text .hero-heading {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.hero-heading h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.hero-heading h1 span {
+    color: #06091b;
+}
+
+.hero-text .hero-heading h4 {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.hero-services {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hero-services-item {
+    width: 22%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin: 0;
+    box-shadow: 2px 2px 10px #0d1028;
+}
+
+.services-item-heading {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.services-item-heading h4 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.services-item-exam,
+.services-item-course {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.services-item-exam a,
+.services-item-course a {
+    background: #ff5202;
+    color: #fff;
+    padding: 5px 0;
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.services-item-more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+    cursor: pointer;
+}
+
+.services-item-more a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #06091b;
+    background-color: transparent;
+}
+
+.login-form-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-user-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    margin-left: 160px;
+    left: 50%;
+    top: -80px;
+    transform: translate(-50%);
+}
+
+.form-user-img img {
+    width: 118px
+}
+
+.form-container {
+    width: 300px;
+    background: #fff;
+    /*   position: relative; */
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    margin-left: 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.form-btn {
+    display: inline-block;
+    margin-top: 40px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.form-btn ul li {
+    width: 50%;
+}
+
+.active {
+    color: #789c05;
+    border-bottom: 2px solid #ff5202;
+    cursor: pointer;
+}
+
+.parent {
+    color: #9a9a9a;
+    width: 100%;
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.tab-content {
+    padding-top: 15px;
+}
+
+form p {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+form p label {
+    margin-bottom: 1px;
+    display: inline-block;
+    color: #212529;
+}
+
+form input {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    line-height: 1.5;
+    color: #495057;
+}
+
+.visiblePassword {
+    font-weight: 900;
+    color: #212529;
+    cursor: pointer;
+}
+
+form .hero-btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background: #06091b;
+    color: #fff;
+    margin: 20px 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+form .account {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #373737;
+    cursor: pointer;
+}
